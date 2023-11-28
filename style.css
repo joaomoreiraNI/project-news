@@ -156,10 +156,10 @@ section.part-email {
 
 /* RODAPÉ */
 footer{
-    opacity: 25%;
+    opacity: 30%;
     width: 220px;
     color: white;
-    margin-top: 125px;
+    margin-top: 200px;
     margin-left: 10px;
     padding: 10px;
     text-align: left;
