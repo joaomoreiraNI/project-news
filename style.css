@@ -1,0 +1,128 @@
+/* ESTILO GERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    width: 389px;
+    height: 94px;
+}
+
+.flex {
+    display: flex;
+}
+
+/* ESTILO DO CABEÇALHO */
+header {
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+header .logo img {
+    max-width: 389px;
+    max-height: 94px;
+}
+
+/* ESTILO DO TOPO DO SITE */
+section.topo-do-site {
+    padding: 36px;
+    margin-top: 93px;
+}
+
+section.topo-do-site.flex {
+    border: 1px solid red;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.topo-do-site .txt-topo-site h1{
+    white-space: nowrap;
+    color: #08C05E;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+
+.topo-do-site .txt-topo-site p {
+    white-space: nowrap;
+    margin: 10px 0;
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.topo-do-site .txt-topo-site span {
+    margin: 10px 0;
+    color: #FFF;
+    font-family: League Spartan;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal
+}
+
+section.part-email {
+    margin-top: 30px;
+    padding: 36px;
+}
+
+.part-email .text-email p{
+    color: #A8A8A8;
+    font-family: League Spartan;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal
+}
+
+.campo-email input {
+    text-indent: 15px;
+    position: absolute;
+    margin: 17px 0;
+    width: 750px;
+    height: 48px;
+}
+
+.campo-email button{
+    cursor: pointer;
+    margin-top: 17px;
+    margin-left: 748px;
+    position: absolute;
+    color: white;
+    width: 48px;
+    height: 48px;
+    background-color: #8257E5;
+    border: none;
+}
+
+.campo-email button:hover {
+    transition: 0.2s;
+    transform: scale(1.05);
+}
+
+.campo-email .retangulo {
+    margin-top: 17px;
+    position: absolute;
+    z-index: 1;
+    background-color: #08C05E;
+    width: 5px;
+    height: 48px;
+}
+
+
+
