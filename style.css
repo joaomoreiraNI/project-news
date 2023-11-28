@@ -9,12 +9,7 @@
 body {
     background-color: rgb(15, 15, 15);
     height: 100vh;
-}
-
-.interface{
-    max-width: 1280px;
-    width: 389px;
-    height: 94px;
+    
 }
 
 .flex {
@@ -123,6 +118,20 @@ section.part-email {
     width: 5px;
     height: 48px;
 }
-
+/* Background */
+div.background{
+    width: 100%;
+    height: 100%;
+  
+    left: 50%;
+  
+    position: fixed;
+    z-index: 0;
+  }
+  
+  img.background{
+    height: 100vh;
+    width: 50vw;
+  }
 
 
