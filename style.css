@@ -73,7 +73,7 @@ section.topo-do-site.flex {
 
 /* CAMPO EMAIL */
 section.part-email {
-    margin-top: 1px;
+    margin-top: 30px;
     padding: 20px;
 }
 
@@ -87,6 +87,7 @@ section.part-email {
 }
 
 .campo-email input {
+    border-style: none;
     text-indent: 15px;
     position: absolute;
     margin: 17px 0;
@@ -126,7 +127,7 @@ section.part-email {
     width: 220px;
     font-family: 'League Spartan', sans-serif;
     color: #8257E5;
-    margin-top: 85px;
+    margin-top: 55px;
     margin-left: 10px;
     padding: 10px;
     text-align: left;
@@ -134,7 +135,7 @@ section.part-email {
 }
 
 
-.info a:link{
+.info a{
     position: absolute;
     font-weight: 500;
     text-decoration: none;
@@ -155,18 +156,18 @@ section.part-email {
 
 /* RODAPÉ */
 footer{
-    opacity: 30%;
+    opacity: 25%;
     width: 220px;
     color: white;
-    margin-top: 110px;
+    margin-top: 125px;
     margin-left: 10px;
     padding: 10px;
     text-align: left;
-    font-size: 14px;
+    font-size: 13px;
     transition: 0.2s;
   }
 
-footer a:link {
+footer a{
     color: white
  }
 
